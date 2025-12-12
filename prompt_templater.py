@@ -6,10 +6,11 @@ import html
 TOOL_OPTIONS = [
     "목록형 TO 서술형 재작성",
     "어색한 비교 질의 재구성",
+    "답변 REWRITING",
 ]
 
 PROMPT_TOOL_URL = "https://chatgpt.com/g/g-693b70c4421c8191904731178b22f3c2-vision-text-data-reviser"  # 결과 확인용 링크
-APP_TITLE = "프롬프트 템플레이터"
+APP_TITLE = "프롬프트 템플레이터"https://github.com/jwy-cmyk/prompt_templator/blob/main/prompt_templater.py
 # ==========================
 
 
@@ -112,4 +113,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
