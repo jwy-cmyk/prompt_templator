@@ -48,17 +48,14 @@ def main():
 
     # 템플릿은 상황에 맞게 수정해서 사용하면 됩니다.
     combined_prompt = textwrap.dedent(f"""
-    [요청 TOOL]
-    {selected_llm}
+[요청 TOOL]
+{selected_llm}
 
-    [질의]
-    {user_query.strip()}
+[질의]
+{user_query.strip()}
 
-    [모델 답변]
-    {model_answer.strip()}
-
-    위 내용을 하나의 프롬프트로 사용하세요.
-    {PROMPT_TOOL_URL}에서 프롬프트를 입력하여 결과를 확인하세요.
+[모델 답변]
+{model_answer.strip()}
     """).strip()
 
     # 프롬프트 표시
@@ -113,6 +110,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
