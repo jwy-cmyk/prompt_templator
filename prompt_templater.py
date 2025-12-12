@@ -10,7 +10,7 @@ TOOL_OPTIONS = [
 ]
 
 PROMPT_TOOL_URL = "https://chatgpt.com/g/g-693b70c4421c8191904731178b22f3c2-vision-text-data-reviser"  # 결과 확인용 링크
-APP_TITLE = "프롬프트 템플레이터"https://github.com/jwy-cmyk/prompt_templator/blob/main/prompt_templater.py
+APP_TITLE = "프롬프트 템플레이터"
 # ==========================
 
 
@@ -113,5 +113,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
